@@ -14,10 +14,10 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
 
 const Home = () => {
-  return (
-    <div className='bg-primary/60 h-full'>
+  return (    
+    <div className='h-full py-32 text-center xl:text-left'>
       {/* text */}              
-      <div className='w-full h-full bg-gradient-to-r from-primary/10 via-black/20 to-black/40 sm:pt-32 xl:pt-10'>
+      <div className='w-full h-full bg-gradient-to-r from-primary/10 via-black/20 to-black/40 sm:pt-42 xl:pt-10'>
         <div className='text-center flex flex-col justify-center xl:pt-40 xl:text-left container mx-auto'>
           {/* title */}
           <motion.h1 
