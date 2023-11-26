@@ -2,6 +2,7 @@
 import ServiceSlider from "../../components/ServiceSlider";
 import Bulb from "../../components/Bulb";
 import Circles from "../../components/Circles";
+import CallToAction from "../../components/CallToAction";
 
 // framer motion
 import { motion } from "framer-motion";
@@ -22,7 +23,7 @@ const Services = () => {
               exit="hidden"
               className="h2 xl:mt-8"
             >
-              My services <span className="text-accent">.</span>
+              Our Services <span className="text-accent">.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn("up", 0.4)}
@@ -31,9 +32,9 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-              voluptatum, quibusdam, quia, quod voluptatem voluptate quos
-              dolorum.
+              We team up with our clients to deliver successful AI solutions.
+              Whether you are a startup or a large enterprise, we can help you
+              build AI solutions that solve real-world problems.
             </motion.p>
           </div>
           <motion.div
@@ -47,6 +48,16 @@ const Services = () => {
             <ServiceSlider />
           </motion.div>
         </div>
+        {/* Call to action */}
+        <motion.div
+          className="flex items-center justify-center xl:justify-start z-30 mt-10"
+          variants={fadeIn("up", 0.6)}
+          initial="hidden"
+          animate="show"
+          exit="hidden"
+        >
+          <CallToAction />
+        </motion.div>
       </div>
       <Bulb />
     </div>

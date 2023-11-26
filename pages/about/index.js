@@ -107,7 +107,7 @@ const About = () => {
     <div className="h-full bg-primary/30 py-32 text-center xl:text-left">
       <Circles />
       {/* avatar img */}
-      <motion.div
+      {/* <motion.div
         variant={fadeIn("right", 0.2)}
         initial="hidden"
         animate="show"
@@ -115,10 +115,10 @@ const About = () => {
         className="hidden xl-flex absolute botton-0 -left-[370px]"
       >
         <Avatar />
-      </motion.div>
-      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
+      </motion.div> */}
+      <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-8">
         {/* text */}
-        <div className="flex-1 flex flex-col justify-center">
+        <div className="flex-1 flex flex-col justify-center bg-white/30">
           <motion.h2
             variant={fadeIn("right", 0.2)}
             initial="hidden"
@@ -183,7 +183,7 @@ const About = () => {
           </div>
         </div>
         {/* info */}
-        <div className="flex flex-col w-full xl:max-w-[48%] h-[480px]">
+        <div className="flex flex-col w-full xl:max-w-[48%] h-[480px]  bg-white/30">
           <div className="flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4">
             {aboutData.map((item, i) => {
               return (

@@ -23,28 +23,28 @@ import { FreeMode, Pagination } from "swiper";
 const serviceData = [
   {
     icon: <RxCrop />,
-    title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Proof of Concept",
+    description: "Startups looking to build a proof of concept for their idea. We help you build a prototype that you can use to pitch to investors.",
   },
   {
     icon: <RxPencil2 />,
-    title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
-  {
-    icon: <RxDesktop />,
-    title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "NLP",
+    description: "Whether you're looking to build a chatbot or a sentiment analysis tool, we can help you build a solution that solves your problem.",
   },
   {
     icon: <RxReader />,
-    title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Analytics & Insight",
+    description: "We help you build a data pipeline that collects data from various sources and provides you with actionable insights.",
+  },
+  {
+    icon: <RxDesktop />,
+    title: "Dashboarding",
+    description: "We help you build a dashboard that visualizes your data and provides you with actionable insights.",
   },
   {
     icon: <RxRocket />,
-    title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "AI Consulting",
+    description: "We help you build a data pipeline that collects data from various sources and provides you with actionable insights.",
   },
 ];
 
